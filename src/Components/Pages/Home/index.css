@@ -1,0 +1,41 @@
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu div {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  .horizontal-scroll-wrapper {
+    width: 100px;
+    height: 80vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .horizontal-scroll-wrapper > div {
+    width: 100px;
+    height: 100px;
+  }
+  .horizontal-scroll-wrapper {
+    
+    transform: rotate(-90deg);
+    transform-origin: right top;
+  }
+
+  .horizontal-scroll-wrapper > div {
+  
+    transform: rotate(90deg);
+    transform-origin: right top;
+  }
+  .horizontal-scroll-wrapper {
+   
+    transform:rotate(-90deg) translateY(-100px);
+   
+  }
+  
+ 
