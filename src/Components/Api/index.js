@@ -29,7 +29,8 @@ const API = {
             email:email,
             expo_token:expo_token,
             phoneNumber:phoneNumber,
-            id:id
+            id:id,
+            isInstructor:false
 
             
         });  
